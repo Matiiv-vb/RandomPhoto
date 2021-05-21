@@ -1,0 +1,58 @@
+body {
+  background-color: #111;
+}
+
+.sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gallery {
+  margin: 4px;
+}
+
+.container  {
+  width: 100%;
+  
+}
+
+section {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #444;
+}
+
+.block {
+  width: 75px;
+  height: 75px;
+  margin: 25px;
+  border: 2px solid #333;
+}
+
+.active {
+  background: orange;
+}
+
+.hide {
+  display: none;
+}
+
+.img-min {
+  width: 128px;
+  height: 160px;
+  margin: 4px;
+  object-fit: cover;
+}
+
+.img-max {
+  width: 490px;    border: 3px solid #fff;
+
+}
+
+.div-max {
+  /* max-height: 200px; */
+}
+
+.active-img {
+  border: 5px solid red;
+}
