@@ -11,9 +11,9 @@ body {
   margin: 4px;
 }
 
-.container  {
+.container {
   width: 100%;
-  
+
 }
 
 section {
@@ -45,12 +45,14 @@ section {
 }
 
 .img-max {
-  width: 490px;    border: 3px solid #fff;
+  width: 490px;
+  border: 3px solid #fff;
 
 }
 
 .div-max {
   /* max-height: 200px; */
+
 }
 
 .active-img {
